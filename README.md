@@ -1,6 +1,6 @@
-# 🎬 BookUrTicket
+# 🎬 BookUrShows
 
-BookUrTicket is a Pega-based movie ticket booking application that automates the complete booking lifecycle from customer request submission to successful ticket confirmation.
+BookUrshows is a Pega-based movie ticket booking application that automates the complete booking lifecycle from customer request submission to successful ticket confirmation.
 
 ## 📌 Overview
 
@@ -18,7 +18,7 @@ Booking Agents can verify availability, process bookings, allocate seats, and ma
 
 ## 🎯 Business Objective
 
-The main objective of BookUrTicket is to simplify and automate the movie ticket booking process while improving booking accuracy, seat availability validation, cost calculation, routing, and customer communication.
+The main objective of BookUrShows is to simplify and automate the movie ticket booking process while improving booking accuracy, seat availability validation, cost calculation, routing, and customer communication.
 
 ## 🏗️ Case Type
 
