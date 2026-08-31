@@ -1,56 +1,48 @@
-# CineWave Movie Ticket Booking Management
+# 🎬 BookUrTicket
 
-CineWave Movie Ticket Booking Management is a Pega-based application that automates the complete movie ticket booking lifecycle.
+BookUrTicket is a Pega-based movie ticket booking application that automates the complete booking lifecycle from customer request submission to successful ticket confirmation.
 
-## Application Purpose
+## 📌 Overview
 
-The application enables customers to submit movie ticket requests, verify show availability, calculate booking costs, review and confirm bookings, process ticket allocation, route bookings based on show type, and receive automated confirmation notifications.
+The application allows customers to:
 
-## Key Features
+- Submit movie ticket booking requests
+- Select movie, show date, show time, and show type
+- Specify the number of tickets
+- Check show and seat availability
+- View the calculated booking cost
+- Confirm or cancel a booking
+- Receive an automated booking confirmation
 
-- Movie ticket booking request management
-- Customer booking details capture
-- Movie and Show reusable data objects
-- Show availability validation
-- Ticket capacity validation
-- Automatic booking cost calculation
-- Customer booking confirmation
-- Booking cancellation handling
-- Premium and Standard show queue routing
-- Seat allocation
-- Automatic Ticket ID generation
-- SLA management
-- Automated booking confirmation correspondence
+Booking Agents can verify availability, process bookings, allocate seats, and manage ticket confirmation.
 
-## Case Type
+## 🎯 Business Objective
+
+The main objective of BookUrTicket is to simplify and automate the movie ticket booking process while improving booking accuracy, seat availability validation, cost calculation, routing, and customer communication.
+
+## 🏗️ Case Type
 
 **Movie Ticket Request**
 
-## Application Lifecycle
+## 🔄 Case Lifecycle
 
-1. Submit Movie Ticket Request
-2. Check Show Availability
-3. Calculate Booking Cost
-4. Review Booking Details
-5. Confirm Booking Request
-6. Route Booking by Show Type
-7. Process Ticket Booking
-8. Generate Ticket ID and Seat Numbers
-9. Complete the Booking
-10. Send Booking Confirmation
-
-## Personas
-
-- Customer
-- Booking Agent
-- System
-
-## Technologies
-
-- Pega Platform
-- Pega App Studio
-- Pega Blueprint
-
-## Business Outcome
-
-The application reduces manual booking activities, improves booking accuracy, validates seat availability, automates pricing and routing, and provides customers with immediate booking confirmation.
+```text
+Submit Movie Ticket Request
+          ↓
+Check Show Availability
+          ↓
+Calculate Booking Cost
+          ↓
+Review Booking Details
+          ↓
+Confirm Booking Request
+          ↓
+Route by Show Type
+          ↓
+Process Ticket Booking
+          ↓
+Generate Ticket ID & Seat Numbers
+          ↓
+Complete Booking
+          ↓
+Send Booking Confirmation
